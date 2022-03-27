@@ -5,13 +5,14 @@ import { HomeComponent } from './components/home/home.component';
  import { USUARIO_ROUTES } from './components/usuario/usuario.routes';
  
  
+//usuario/10/nuevo
 
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { 
-        path: 'usuario',
+        path: 'usuario/:id',
          component: UsuarioComponent,
-         //RUTAS HIJAS 
+         //// Separar las rutas hijas a un archivo especifico 
         children: USUARIO_ROUTES },
         { path: '**', pathMatch: 'full', redirectTo: 'home'}
    

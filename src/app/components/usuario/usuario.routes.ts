@@ -1,3 +1,5 @@
+
+// Separar las rutas hijas a un archivo especifico
 import { Routes } from '@angular/router';
 
 
