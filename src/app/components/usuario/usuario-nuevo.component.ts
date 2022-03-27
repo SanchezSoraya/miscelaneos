@@ -13,6 +13,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class UsuarioNuevoComponent implements OnInit {
 
+
+//Obteniendo parametros del padre, desde las rutas hijas
   constructor( private router:ActivatedRoute) {
     this.router.parent?.params.subscribe(parametros =>{
 

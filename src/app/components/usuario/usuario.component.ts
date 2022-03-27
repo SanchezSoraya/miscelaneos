@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   
 })
 export class UsuarioComponent implements OnInit {
-
+//Obteniendo parametros del padre, desde las rutas hijas
   constructor( private router:ActivatedRoute) {
     this.router.params.subscribe(parametros =>{
       console.log("Ruta PADRE");
