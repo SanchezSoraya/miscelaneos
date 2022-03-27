@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-ng-style',
   template: `
-    // ngStyle 
+    <!--ngStyle--> 
     <p [style.fontSize.px]="tamano">
       Hola mundo.... esta es una etiqueta
     </p>
